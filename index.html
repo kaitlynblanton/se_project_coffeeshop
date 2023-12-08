@@ -35,16 +35,16 @@
           />
           <ul class="nav__links">
             <li>
-              <a href="#" class="nav__link">Recipes</a>
+              <a href="#recipes" class="nav__link">Recipes</a>
             </li>
             <li>
-              <a href="#" class="nav__link">Book a Table</a>
+              <a href="#book-a-table" class="nav__link">Book a Table</a>
             </li>
             <li>
-              <a href="#" class="nav__link">Menu</a>
+              <a href="#menu" class="nav__link">Menu</a>
             </li>
             <li>
-              <a href="#" class="nav__link">Contacts</a>
+              <a href="#contacts" class="nav__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -58,7 +58,7 @@
         </p>
         <img
           src="./images/inside_coffee_shop.png"
-          alt="Inside Triple Espresso"
+          alt="Illustration 'Inside Triple Espresso'"
           class="header__image"
         />
         <div class="header__footer">
@@ -74,13 +74,48 @@
       </header>
 
       <main class="content">
-        <section class="recipes"></section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
+          <div class="recipes__videos">
+            <div>
+              <iframe
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=riNiVG08G8Dovc-o"
+                title="'The Ultimate AeroPress Technique' Youtube video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                class="recipes__iframe"
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span>Aeropress recipe</span> ~5 min
+              </p>
+            </div>
+            <div>
+              <iframe
+                src="https://www.youtube.com/embed/st571DYYTR8?si=Q934NIv2wkj83y5g"
+                title="'The Ultimate French Press Technique' Youtube video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                class="recipes__iframe"
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span>French press recipe</span> ~15 min
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="reservation" id="book-a-table"></section>
+
+        <section class="menu" id="menu"></section>
+
         <section class="about"></section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer" id="contacts"></footer>
     </div>
   </body>
 </html>
