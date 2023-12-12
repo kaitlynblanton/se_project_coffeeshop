@@ -28,3 +28,13 @@
   max-width: 780px;
   text-align: center;
 }
+
+.menu__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
