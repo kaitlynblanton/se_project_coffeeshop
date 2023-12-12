@@ -13,4 +13,5 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Improve usability by making the website aesthetic consistent across all device screen sizes.
+- Improve accessibility by adding keyboard-only navigation to achieve better expereince for all users.

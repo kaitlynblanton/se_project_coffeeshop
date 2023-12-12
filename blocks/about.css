@@ -18,6 +18,7 @@
   position: relative;
   overflow: hidden;
   display: flex;
+  margin: 0;
   padding: 100px 80px;
 }
 
@@ -28,6 +29,7 @@
   max-width: 251px;
   position: relative;
   margin: 0;
+  padding: 0;
   z-index: 1;
 }
 
@@ -42,10 +44,12 @@
 
 .about__paragraph {
   margin: 0 0 20px;
+  padding: 0;
 }
 
 .about__paragraph:last-child {
   margin: 0;
+  padding: 0;
 }
 
 .about__circle {

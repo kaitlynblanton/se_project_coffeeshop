@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  margin: 0;
   padding: 30px 80px 40px;
   min-height: 720px;
   max-height: 800px;
@@ -40,11 +41,18 @@
 .nav__link {
   color: #000;
   text-decoration: none;
+  transition: color 0.35s 0s ease-in-out;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+  cursor: pointer;
 }
 
 .header__title {
   max-width: 729px;
   margin: 183px 0 28px;
+  padding: 0;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
@@ -64,6 +72,7 @@
   line-height: 30px;
   max-width: 683px;
   margin: 0;
+  padding: 0;
 }
 
 .header__image {
@@ -80,10 +89,12 @@
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
+  padding: 0;
 }
 
 .header__paragraph {
   font-weight: 500;
   color: #838383;
   margin: 0;
+  padding: 0;
 }

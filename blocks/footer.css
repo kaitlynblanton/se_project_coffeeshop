@@ -1,6 +1,7 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #fff;
+  margin: 0;
   padding: 60px 80px;
 }
 
@@ -23,14 +24,17 @@
 .footer__social-heading {
   font-weight: bold;
   margin: 0 0 20px;
+  padding: 0;
 }
 
 .footer__list-item {
   margin: 0 0 16px;
+  padding: 0;
 }
 
 .footer__list-item:last-child {
   margin: 0;
+  padding: 0;
 }
 
 .footer__social-link {
@@ -38,7 +42,9 @@
   color: #fff;
   display: flex;
   align-items: center;
-  transition: color 0.5s 0s linear;
+  transition: color 0.35s 0s ease-in-out;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__social-link:hover {
@@ -49,9 +55,11 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  padding-right: 10px;
+  margin: 0;
+  padding: 0 10px 0 0;
 }
 
 .footer__copyright {
   margin: 108px 0 0;
+  padding: 0;
 }
