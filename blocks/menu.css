@@ -4,9 +4,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* correct placing for background image to match brief */
-  margin: 50px 50px 100px;
-  padding: 50px 50px 0px;
+  margin: 50px 0 100px;
+  padding: 50px 0 0;
 }
 
 .menu__title {
@@ -14,7 +13,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 auto;
-  padding-bottom: 24px;
+  padding: 0 0 24px;
   max-width: 780px;
   text-align: center;
 }

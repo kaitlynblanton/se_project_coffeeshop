@@ -42,6 +42,7 @@
   margin: 32px 0 0;
   padding: 0;
   transition: opacity 0.5s 0s ease-in-out;
+  cursor: pointer;
 }
 
 .form__button:hover {
@@ -54,15 +55,16 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  padding: 32px 0 0;
 }
 
-input[type="checkbox"] {
+.form__checkbox {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
 
-input[type="checkbox"] + span {
+.form__checkbox + .form__visible-checkbox {
   border: solid 1px #838383;
   border-radius: 2px;
   background-color: #fff;
@@ -74,7 +76,7 @@ input[type="checkbox"] + span {
   cursor: pointer;
 }
 
-input[type="checkbox"]:checked + span {
+.form__checkbox:checked + .form__visible-checkbox {
   background-color: #2f80ed;
   background-image: url(../images/check.svg);
   background-repeat: no-repeat;

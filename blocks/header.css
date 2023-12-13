@@ -23,6 +23,7 @@
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
+  z-index: 1;
 }
 
 .header__span-accent {
@@ -39,6 +40,7 @@
   max-width: 683px;
   margin: 0;
   padding: 0;
+  z-index: 1;
 }
 
 .header__image {
@@ -47,6 +49,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: 0;
 }
 
 .header__footer {
@@ -56,6 +59,7 @@
   justify-content: space-between;
   box-sizing: border-box;
   padding: 0;
+  z-index: 1;
 }
 
 .header__paragraph {
@@ -63,4 +67,5 @@
   color: #838383;
   margin: 0;
   padding: 0;
+  align-self: flex-end;
 }
