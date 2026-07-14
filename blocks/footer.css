@@ -15,8 +15,8 @@
   height: 39px;
 }
 
-.footer__column {
-}
+/* .footer__column {
+} */
 
 .footer__social-heading {
   margin: 0 0 20px;
@@ -42,6 +42,11 @@
 .footer__social-link {
   text-decoration: none;
   color: #fff;
+  transition: opacity 0.4s ease;
+}
+
+.footer__social-link:hover {
+  opacity: 70%;
 }
 
 .footer__social-icon {
