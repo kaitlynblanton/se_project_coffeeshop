@@ -33,6 +33,11 @@
 .nav__link {
   text-decoration: none;
   color: #000;
+  transition: opacity 0.4s ease;
+}
+
+.nav__link:hover {
+  opacity: 50%;
 }
 
 .header__title {
