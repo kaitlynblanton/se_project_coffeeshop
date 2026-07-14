@@ -25,6 +25,8 @@
 
 .form__fieldset {
   border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .form__input {
@@ -75,6 +77,9 @@
   border-radius: 4px;
   background-color: #fff;
   cursor: pointer;
+  transition:
+    background-color 0.5s ease,
+    background-image 0.5s ease;
 }
 
 .form__custom-checkbox:checked {

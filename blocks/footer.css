@@ -15,8 +15,9 @@
   height: 39px;
 }
 
-/* .footer__column {
-} */
+.footer__column {
+  font-weight: 400;
+}
 
 .footer__social-heading {
   margin: 0 0 20px;
