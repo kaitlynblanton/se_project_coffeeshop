@@ -34,6 +34,7 @@
 }
 
 .recipes__iframe {
+  border: none;
   width: 480px;
   height: 273px;
 }
@@ -45,6 +46,6 @@
   margin: 24px 0 0;
 }
 
-.recipes__video-caption_text {
+.video-caption__text {
   margin: 0;
 }
